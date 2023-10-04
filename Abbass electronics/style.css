@@ -1,0 +1,346 @@
+/* General Styles */
+/*abbaselectronic.com*/
+
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Abbas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0px;
+}
+
+footer {
+   
+    align-items: row;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #007bff ;
+    
+}
+header a {
+    
+    padding: 5px 10px;
+    margin-right: 10px; /* Adjust the margin as needed */
+    color: #000000;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+
+}
+
+header a:last-child {
+    margin-right: 0; /* Remove the margin for the last link */
+}
+
+header a:hover {
+    background-color: #154360;
+    color: #ffffff;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main {
+    padding: 40px;
+}
+
+
+h1 {
+    font-size: 32px;
+}
+
+footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.logo{
+    width: 50px; 
+    height: 50px; 
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px; 
+}
+
+/* Page-specific Styles */
+
+/* Services Page */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.service-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Contact Page */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.contact-form button {
+    width: 150px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+.photo-head {
+    display: flex;
+    justify-content: center;
+    
+}
+.contactUS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.textbox{
+    border-radius: 10px;
+}
+.text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.facebook-btn {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 15%;
+    background-color: #3b5998;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .facebook-btn:hover {
+    background-color: #4267B2;
+  }
+  
+  .work-gallery {
+    
+    white-space: nowrap;
+}
+
+.work-gallery .gallery {
+    display: flex;
+    vertical-align: top;
+    margin-right: 20px;
+    white-space: normal;
+}
+
+.work-gallery .photo-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 10px; /* Add some bottom padding to ensure all images are visible */
+}
+
+.work-gallery .photo-gallery img {
+    flex-shrink: 0;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.galaryHead {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .galaryHead a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .galaryHead a:hover {
+    color: #0056b3;
+  }
+  
+  .galaryHead li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .galaryHead li:last-child {
+    margin-right: 0;
+  }
+
+  .gallery-title1 {
+    margin: 0;
+    font-size: 24px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+  }
+  
+  .photo-gallery1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.1);
+  }
+
+
+  .image-container1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 100px;
+  }
+  
+  .image-container1 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container1:hover img {
+    transform: scale(1.1);
+  }
+  .photo-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+
+.photo-gallery img {
+    
+    flex-shrink: 0;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
